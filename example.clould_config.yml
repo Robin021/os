@@ -1,0 +1,17 @@
+rancher:
+  docker:
+    tls: true
+  network:
+    dns:
+      nameservers:
+      - 223.5.5.5
+      - 223.6.6.6
+  registry_auths:
+    http://hub-mirror.c.163.com:
+      password: null
+      username: null
+  services_include:
+    kernel-headers: true
+ssh_authorized_keys:
+- ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCoJ6Ii2uWz3OVqIL8PFR1Mvzk0D6rBWKs7CCEjypJm6HRf6zTsyMq4H7MpolJXihTjytp5Gt8w2uJ51UjHAVE6l/wO9XpDAFrdA5FwItmpWAx+cDEk/P+FPwMiM1rLkCOVfzMfc9BM7r42uys3pkcKx01tS3ZFiLRWDhbxToKTYXulGgR5Pnz1M2fLqx9gdTl1TQg1EE9EGO04ZcMflNYnLDOCqZGygi0k7mwYGVmZjRuRMAIHZspSmpg5KIUE97fXIStzGt7Qdskm6iN6mPHfusEMXzG09ZVL6LGQmnh2ruZaobyoPwqCLafdbe9K493OOzBPwsW1fHL97kgzgz6f
+  Robin@DESKTOP-CVJ5RNG
